@@ -31,6 +31,5 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  element = array.length
-  array[element - 1]
+  element = array.pop
 end
