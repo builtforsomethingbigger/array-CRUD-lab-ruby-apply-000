@@ -31,5 +31,5 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  element = array.pop
+  element = array.pop #removes last element of an array and assigns it to the element variable
 end
